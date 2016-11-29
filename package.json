@@ -2,7 +2,7 @@
   "name": "COM",
   "version": "0.0.1",
   "description": "Serial console",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": {
     "url": "https://github.com/yosmoc/COM",
     "type": "git"
@@ -17,6 +17,6 @@
   },
   "scripts": {
     "start": "node .",
-    "build": "babel src -d ./"
+    "build": "babel src -d lib/"
   }
 }
