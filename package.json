@@ -8,5 +8,8 @@
     "type": "git"
   },
   "author": "yosmoc <motihara@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "^4.0.6"
+  }
 }
