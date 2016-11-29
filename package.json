@@ -16,6 +16,7 @@
     "babel-cli": "^6.18.0"
   },
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "build": "babel src -d ./"
   }
 }
