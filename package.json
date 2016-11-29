@@ -11,5 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "serialport": "^4.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0"
   }
 }
