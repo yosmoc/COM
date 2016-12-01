@@ -2,7 +2,7 @@
   "name": "COM",
   "version": "0.0.1",
   "description": "Serial console",
-  "main": "lib/index.js",
+  "main": "lib/main.js",
   "repository": {
     "url": "https://github.com/yosmoc/COM",
     "type": "git"
@@ -13,10 +13,11 @@
     "serialport": "^4.0.6"
   },
   "devDependencies": {
-    "babel-cli": "^6.18.0"
+    "babel-cli": "^6.18.0",
+    "electron": "^1.4.10"
   },
   "scripts": {
-    "start": "node .",
+    "start": "electron .",
     "build": "babel src -d lib/"
   }
 }
